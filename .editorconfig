@@ -1,0 +1,10 @@
+[*]
+insert_final_newline = true
+
+[{*.js,*.json}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
+[test-data/**/*]
+insert_final_newline = false
